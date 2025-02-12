@@ -25,6 +25,29 @@
 
 }
 
+.app-footer {
+
+    /* Estilizacao aqui dentro */
+    height: 80px;
+
+    display: flex; /* Muda a orientação para lado-a-lado */
+    align-items: center; /* Deixa o texto centralizado verticalmente */
+    justify-content: center; /* Joga os elementos para os cantos */
+
+   /* justify-content: center. horizontalmente; */
+   /* align-items: center; vertical */
+   
+
+
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+    box-shadow: 0px -2px 4px #464646;
+
+}
+
 .links a {
 
     font-size: 30px;
@@ -45,9 +68,65 @@
     margin-right: 40px;
     margin-bottom: 40px;
 
+    transition: all ease 0.3s;
+
 }
 
+.memory-card:hover {
+
+    cursor: pointer;
+    scale: 1.0;
+}
+
+
+
 .memory-card .image {
+
+    height: 300px;
+    width: 300px;
+
+
+background-image: url("../assets/imgs/unsplash_hvPB-UCAmmU\ \(2\).png");
+background-size:cover;
+
+}
+
+.memory-card .image2 {
+
+    height: 300px;
+    width: 300px;
+
+
+background-image: url("../assets/imgs/john-schnobrich-Aqt08E8JzEc-unsplash.jpg");
+background-size:cover;
+background-position: center;
+    
+}
+
+.memory-card .image3 {
+
+    height: 300px;
+    width: 300px;
+
+
+background-image: url("../assets/imgs/unsplash_hvPB-UCAmmU\ \(1\).png");
+background-size:cover;
+    
+}
+
+.memory-card .image4 {
+
+    height: 300px;
+    width: 300px;
+
+
+background-image: url("../assets/imgs/unsplash_hvPB-UCAmmU.png");
+background-size:cover;
+    
+}
+
+
+.memory-card .image5 {
 
     height: 300px;
     width: 300px;
@@ -56,4 +135,26 @@
 background-image: url("../assets/imgs/bg1.png");
 background-size:cover;
     
+}
+
+
+
+
+
+.memory-card h2 {
+
+    font-size: 50px;
+    font-weight: normal; /*Remova o negrito*/
+    color:#464646
+}
+
+.memory-card p {
+
+    color:#464646
+}
+
+    .memories-container {
+        display: flex;
+        flex-wrap: wrap;
+
 }
