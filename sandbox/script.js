@@ -51,3 +51,17 @@ console.log(n1);
 //Separa em numero inteiro ou real
 console.log(parseInt(n1));
 console.log(parseFloat("40.12Ae"));
+
+
+//Condicionais
+
+let idade1 = 18;
+
+if (idade1 < 18){
+
+    console.log("Menor de idade");
+  }else if (idade1 > 18 ){
+        console.log("Maior de idade");
+  }else if  ( idade1 === 18); {
+    console.log("Acabou de atingir a amior idade")
+  }
