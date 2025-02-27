@@ -1,21 +1,21 @@
 import logo from "../../assets/icons/mnemosyne-logo.svg";
+
 const Header = () => {
 
-return(
+    return (
 
-    <header className="app-header">
+        <header className="app-header">
 
-                <img src={logo} alt="Mnemosyne Logo"></img>
+            <img src={logo} alt="Mnemosyne Logo"></img>
 
-                <div className="links">
-                    <a href="#">HOME</a>
-                    <a href="#">ADICIONAR MEMÓRIA</a>
-                </div>
+            <div className="links">
+                <a href="/home">HOME</a>
+                <a href="/new-memory">ADICIONAR MEMÓRIA</a>
+            </div>
 
-            </header>
+        </header>
 
- );
-
+    );
 
 }
 
