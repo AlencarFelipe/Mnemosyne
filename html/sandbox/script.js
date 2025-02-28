@@ -65,3 +65,6 @@ if (idade1 < 18){
   }else if  ( idade1 === 18); {
     console.log("Acabou de atingir a amior idade")
   }
+
+
+  
