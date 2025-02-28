@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "http://localhost:8080";
 
 const getMemories = async () => {
   const response = await fetch(`${API_URL}/memories`); // Busquei os dados
